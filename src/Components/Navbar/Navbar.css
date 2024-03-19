@@ -1,0 +1,81 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  transition: background-color 0.3s ease;
+  z-index: 10;
+}
+
+.scrolled {
+  background-color: black;
+}
+
+.logo {
+  position: fixed;
+  left: 80px;
+  width: 120px;
+}
+
+.avatar {
+  position: fixed;
+  right: 130px;
+  width: 40px;
+  margin-top: -5px;
+}
+.searchIcon{
+    position: absolute;
+    margin-right: 40px;
+    right: 200px;
+    cursor: pointer;
+}
+.searchIcon:hover{
+  color: red;
+}
+
+.navText{
+  display: flex;
+  margin-left: 250px;
+  gap: 30px;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.navTxt:hover {
+  color: red;
+  cursor: pointer;
+}
+
+
+.avatar-wrapper {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 380px;
+  background-color: #000000;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 100px;
+  margin-top: 10px;
+}
+
+.dropdown button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown button:hover {
+  color: #ff0000;
+}
